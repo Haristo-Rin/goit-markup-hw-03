@@ -37,8 +37,8 @@ ul {
     list-style: none;
 }
 
-nav { 
-
+img {
+    display: block;
 }
 /* header */
 .header-logo {
