@@ -201,14 +201,25 @@ address{
 
 
 /* section_2 */
+.advant_section {
+    padding: 120px 0;
+}
 
 .advant_h-two { 
     line-height: 1.2;
 }
 
+.advant_ul {
+    display: flex;
+    gap: 24px;
+}
 
+.advant_li {
+    width: calc((100%-72px)/4);
+}
 
 .advant_h-thre {
+    margin-bottom: 8px;
     line-height: 1.2;
     font-weight: 500;
     font-size: 20px;
