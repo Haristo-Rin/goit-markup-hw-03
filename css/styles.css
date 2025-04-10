@@ -276,10 +276,10 @@ address{
 }
 
 .oteam_li {
-    background: #fff;
-    border: none;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    background: #fff;
+    border: none;
 }
 
 .oteam_div_inul{
@@ -314,9 +314,12 @@ address{
 
 /* section_4 */
 
-
+.oportfolio_section {
+    padding: 120px 0;
+}
 
 .oportfolio_h-two {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -325,15 +328,26 @@ address{
     color: #2e2f42;
 }
 
+.oportfolio_ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 
-
-.oportfolio_ul>li {
+.oportfolio_li {
+    width: calc((100% - 48px) / 3);
     margin-right: 24px;
     background: #fff;
 
 }
 
-
+.oportfolio_div_inul {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 
 .oportfolio_h-thre {
     font-weight: 500;
