@@ -256,6 +256,7 @@ address{
 
 .oteam_section {
     background: #f4f4fd;
+    padding: 120px 0;
 }
 
 .oteam_h-two {
@@ -266,16 +267,28 @@ address{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
+.oteam_ul {
+    display: flex;
+    gap: 24px;
+}
 
-.oteam_ul>li {
+.oteam_li {
     background: #fff;
     border: none;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
+.oteam_div_inul{
+    padding: 32px 0;
+}
 
 .oteam_h-thre {
+    text-align: center;
+    margin-bottom: 8px;
     line-height: 1.2;
     font-weight: 500;
     font-size: 20px;
@@ -285,6 +298,7 @@ address{
 }
 
 .oteam_p {
+    text-align: center;
     line-height: 1.5;
     font-weight: 400;
     font-size: 16px;
