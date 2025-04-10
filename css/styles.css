@@ -346,10 +346,10 @@ address{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .oportfolio_h-thre {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -370,9 +370,12 @@ address{
 
 .foot {
     background: #2e2f42;
+    padding: 100px 0;
 }
 
 .a_foot {
+    display: inline-block;
+    margin-bottom: 16px;
     line-height: 1.17;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -382,13 +385,14 @@ address{
     color: #4d5ae5;
 }
 
-.a_foot>span{
+.web {
     line-height: 1.17;
     color: #f4f4fd;
     
 }
 
 .p_foot {
+    min-width: 264px;
     line-height: 1.5;
     font-weight: 400;
     font-size: 16px;
